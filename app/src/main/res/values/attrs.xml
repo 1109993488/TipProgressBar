@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="pro_color" format="color"/>
+    <attr name="rect_color" format="color"/>
+    <attr name="rect_width" format="dimension"/>
+    <attr name="pro_width" format="dimension"/>
+    <attr name="pro_height" format="dimension"/>
+
+    <declare-styleable name="TipProgressBar">
+        <attr name="tpbTipPaddingVertical" format="dimension|reference"/>
+        <attr name="tpbTipPaddingHorizontal" format="dimension|reference"/>
+        <attr name="tpbTipRadius" format="dimension|reference"/>
+        <attr name="tpbTipTextSize" format="dimension|reference"/>
+        <attr name="tpbProgressHeight" format="dimension|reference"/>
+
+        <attr name="tpbTipColor" format="color|reference"/>
+        <attr name="tpbTipTextColor" format="color|reference"/>
+        <attr name="tpbProgressBackgroundColor" format="color|reference"/>
+        <attr name="tpbProgressColor" format="color|reference"/>
+
+        <attr name="tpbTipTextFormat" format="string|reference"/>
+
+        <attr name="tpbMaxProgress" format="integer|reference"/>
+        <attr name="tpbProgress" format="integer|reference"/>
+    </declare-styleable>
+</resources>
